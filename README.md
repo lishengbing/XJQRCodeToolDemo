@@ -2,16 +2,17 @@
 XJQRCodeTool工具类
 
 
+核心工具类:
+QRCodeTool.swift
+
+
 github链接:
 https://github.com/lishengbing/XJQRCodeToolDemo
 
-my.oschina.com链接：<友情推荐>
-https://my.oschina.net/shengbingli/blog/753400
-https://github.com/lishengbing/XJDragViewController
 
+my.oschina.com链接：
+https://my.oschina.net/shengbingli/blog/787809
 
-核心工具类:
-QRCodeTool.swift
 
 
 ![XJDmain](https://github.com/lishengbing/XJQRCodeToolDemo/blob/master/XJQRCodeDemo/%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%A1%88%E4%BE%8B/Assets.xcassets/scanUI.imageset/scanUI%402x.png)   
@@ -60,4 +61,9 @@ https://my.oschina.net/shengbingli
 
 
 谢谢！！！
+
+
+<友情推荐>
+https://my.oschina.net/shengbingli/blog/753400
+https://github.com/lishengbing/XJDragViewController
 
