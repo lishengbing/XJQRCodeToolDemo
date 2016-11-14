@@ -14,6 +14,9 @@ https://github.com/lishengbing/XJDragViewController
 QRCodeTool.swift
 
 
+![XJDmain](https://github.com/lishengbing/XJQRCodeToolDemo/blob/master/XJQRCodeDemo/%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%A1%88%E4%BE%8B/Assets.xcassets/scanUI.imageset/scanUI%402x.png)   
+
+
 
                   >>>支持最新swift3.0、全新二维码生成、识别、扫描<<<
 
