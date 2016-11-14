@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iG4-5V-u6m">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--扫描二维码-->
+        <scene sceneID="iqn-w8-v7I">
+            <objects>
+                <viewController title="扫描二维码" id="iG4-5V-u6m" customClass="ScanQRCodeViewController" customModule="二维码案例" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RbQ-Q7-EID"/>
+                        <viewControllerLayoutGuide type="bottom" id="cF0-8U-ic5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dBz-6E-9YQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DYk-mF-t19">
+                                <rect key="frame" x="88" y="234" width="200" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrcode_border" translatesAutoresizingMaskIntoConstraints="NO" id="2Fa-HD-jZ1">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrcode_scanline_qrcode" translatesAutoresizingMaskIntoConstraints="NO" id="8gY-uh-dck">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2Fa-HD-jZ1" secondAttribute="trailing" id="4hm-wA-L43"/>
+                                    <constraint firstItem="8gY-uh-dck" firstAttribute="width" secondItem="2Fa-HD-jZ1" secondAttribute="width" id="A4H-qq-0x7"/>
+                                    <constraint firstItem="8gY-uh-dck" firstAttribute="leading" secondItem="DYk-mF-t19" secondAttribute="leading" id="Dm0-uD-iPn"/>
+                                    <constraint firstAttribute="height" constant="200" id="Kw8-rV-qez"/>
+                                    <constraint firstItem="2Fa-HD-jZ1" firstAttribute="top" secondItem="DYk-mF-t19" secondAttribute="top" id="OWG-cN-xsC"/>
+                                    <constraint firstItem="2Fa-HD-jZ1" firstAttribute="leading" secondItem="DYk-mF-t19" secondAttribute="leading" id="UNH-2f-Tye"/>
+                                    <constraint firstAttribute="bottom" secondItem="8gY-uh-dck" secondAttribute="bottom" id="UTi-s2-ecv"/>
+                                    <constraint firstItem="8gY-uh-dck" firstAttribute="height" secondItem="2Fa-HD-jZ1" secondAttribute="height" id="bKx-QI-mdP"/>
+                                    <constraint firstAttribute="bottom" secondItem="2Fa-HD-jZ1" secondAttribute="bottom" id="ezk-wP-Rdr"/>
+                                    <constraint firstAttribute="width" constant="200" id="m7h-KZ-O3R"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DYk-mF-t19" firstAttribute="centerX" secondItem="dBz-6E-9YQ" secondAttribute="centerX" id="DEh-ZG-49R"/>
+                            <constraint firstItem="DYk-mF-t19" firstAttribute="centerY" secondItem="dBz-6E-9YQ" secondAttribute="centerY" id="OC5-ja-KYB"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <fixedSimulatedSizeMetrics key="simulatedDestinationMetrics">
+                        <size key="portraitSize" width="375" height="667"/>
+                        <size key="landscapeSize" width="375" height="667"/>
+                    </fixedSimulatedSizeMetrics>
+                    <connections>
+                        <outlet property="scanBgView" destination="DYk-mF-t19" id="gnw-wM-jmw"/>
+                        <outlet property="scanBottomCons" destination="UTi-s2-ecv" id="Jjp-Hw-90b"/>
+                        <outlet property="scanLineView" destination="8gY-uh-dck" id="W87-Bh-DSB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PZq-Hr-Qxn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414" y="1422"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="qrcode_border" width="51" height="51"/>
+        <image name="qrcode_scanline_qrcode" width="218" height="170"/>
+    </resources>
+</document>

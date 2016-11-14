@@ -10,6 +10,10 @@ https://my.oschina.net/shengbingli/blog/753400
 https://github.com/lishengbing/XJDragViewController
 
 
+核心工具类:
+QRCodeTool.swift
+
+
 
                   >>>支持最新swift3.0、全新二维码生成、识别、扫描<<<
 
