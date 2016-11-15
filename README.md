@@ -1,6 +1,9 @@
 # XJQRCodeToolDemo
 XJQRCodeTool工具类
 
+>>真机测试:网友反映情况备注一下
+>>demo 下载下来 需要把 bundle ID  还有team 改成自己的  要不然不能运行
+
 
 核心工具类:
 QRCodeTool.swift
