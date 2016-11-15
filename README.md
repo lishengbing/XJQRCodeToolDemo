@@ -5,20 +5,20 @@ XJQRCodeTool工具类
 >>demo 下载下来 需要把 bundle ID  还有team 改成自己的  要不然不能运行
 
 
-核心工具类:
-QRCodeTool.swift
+>>核心工具类:
+>>QRCodeTool.swift
 
 
-github链接:
-https://github.com/lishengbing/XJQRCodeToolDemo
+>>github链接:
+>>https://github.com/lishengbing/XJQRCodeToolDemo
 
 
-my.oschina.com链接：
-https://my.oschina.net/shengbingli/blog/787809
+>>my.oschina.com链接：
+>>https://my.oschina.net/shengbingli/blog/787809
 
 
 
-![XJDmain](https://github.com/lishengbing/XJQRCodeToolDemo/blob/master/XJQRCodeDemo/%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%A1%88%E4%BE%8B/Assets.xcassets/scanUI.imageset/scanUI%402x.png)   
+>>![XJDmain](https://github.com/lishengbing/XJQRCodeToolDemo/blob/master/XJQRCodeDemo/%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%A1%88%E4%BE%8B/Assets.xcassets/scanUI.imageset/scanUI%402x.png)   
 
 
 
