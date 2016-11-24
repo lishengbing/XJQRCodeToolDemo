@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A305584C1DE6BA240082F299 /* XJDomainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A305584A1DE6BA240082F299 /* XJDomainViewController.swift */; };
 		A349C3221DD8C30F00BAB6C1 /* QRCodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349C3211DD8C30F00BAB6C1 /* QRCodeTool.swift */; };
 		A3E837F11DD62F01004889C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E837EF1DD62F01004889C7 /* Main.storyboard */; };
 		A3E837F31DD62F01004889C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E837F21DD62F01004889C7 /* Assets.xcassets */; };
-		A3E837F61DD62F01004889C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E837F41DD62F01004889C7 /* LaunchScreen.storyboard */; };
 		A3E8380E1DD631BF004889C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E838081DD631BF004889C7 /* AppDelegate.swift */; };
 		A3E838121DD632EC004889C7 /* DetecorQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E838111DD632EC004889C7 /* DetecorQRCodeViewController.swift */; };
 		A3E838141DD63300004889C7 /* GeneratorQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E838131DD63300004889C7 /* GeneratorQRCodeViewController.swift */; };
@@ -21,11 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A305584A1DE6BA240082F299 /* XJDomainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJDomainViewController.swift; sourceTree = "<group>"; };
 		A349C3211DD8C30F00BAB6C1 /* QRCodeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeTool.swift; sourceTree = "<group>"; };
 		A3E837E81DD62F01004889C7 /* 二维码案例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码案例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E837F01DD62F01004889C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3E837F21DD62F01004889C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3E837F51DD62F01004889C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3E838081DD631BF004889C7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3E838091DD631BF004889C7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3E838111DD632EC004889C7 /* DetecorQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetecorQRCodeViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 			children = (
 				A3E837EF1DD62F01004889C7 /* Main.storyboard */,
 				A3E837F21DD62F01004889C7 /* Assets.xcassets */,
-				A3E837F41DD62F01004889C7 /* LaunchScreen.storyboard */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -165,6 +164,7 @@
 				A3E838081DD631BF004889C7 /* AppDelegate.swift */,
 				A3E838091DD631BF004889C7 /* Info.plist */,
 				A349C3211DD8C30F00BAB6C1 /* QRCodeTool.swift */,
+				A305584A1DE6BA240082F299 /* XJDomainViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -264,7 +264,6 @@
 			files = (
 				A3E8381C1DD6348F004889C7 /* ScanQRCodeViewController.storyboard in Resources */,
 				A3E8381A1DD63475004889C7 /* DetecorQRCodeViewController.storyboard in Resources */,
-				A3E837F61DD62F01004889C7 /* LaunchScreen.storyboard in Resources */,
 				A3E837F31DD62F01004889C7 /* Assets.xcassets in Resources */,
 				A3E837F11DD62F01004889C7 /* Main.storyboard in Resources */,
 				A3E838181DD63413004889C7 /* GeneratorQRCodeViewController.storyboard in Resources */,
@@ -278,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A305584C1DE6BA240082F299 /* XJDomainViewController.swift in Sources */,
 				A349C3221DD8C30F00BAB6C1 /* QRCodeTool.swift in Sources */,
 				A3E838141DD63300004889C7 /* GeneratorQRCodeViewController.swift in Sources */,
 				A3E8380E1DD631BF004889C7 /* AppDelegate.swift in Sources */,
@@ -295,14 +295,6 @@
 				A3E837F01DD62F01004889C7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A3E837F41DD62F01004889C7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3E837F51DD62F01004889C7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
