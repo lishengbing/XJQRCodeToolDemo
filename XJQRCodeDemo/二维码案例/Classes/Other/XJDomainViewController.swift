@@ -22,6 +22,11 @@ class XJDomainViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        removeCycleTimer()
+    }
 }
 
 
@@ -83,11 +88,12 @@ extension XJDomainViewController  {
 extension XJDomainViewController : UIWebViewDelegate {
     func webViewDidStartLoad(_ webView: UIWebView) {
         navigationItem.title = "正在前往Github star的路上...稍等..."
-        addCycleTimer()
+         addCycleTimer()
     }
     
     func webViewDidFinishLoad(_ webView: UIWebView) {
         navigationItem.title = "请star一下"
+       
     }
     
     
@@ -97,6 +103,7 @@ extension XJDomainViewController : UIWebViewDelegate {
 
 extension XJDomainViewController {
     fileprivate func addCycleTimer() {
+        removeCycleTimer()
         cycyleTimer = Timer(timeInterval: 1.0, target: self, selector: #selector(self.scrollToNext), userInfo: nil, repeats: true)
         RunLoop.main.add(cycyleTimer!, forMode:RunLoopMode.commonModes)
     }
@@ -116,6 +123,7 @@ extension XJDomainViewController {
             removeView()
             XJDomainViewController.timeinterval = 0
             XJDomainViewController.isClick = true
+            return
         }
     }
 }
