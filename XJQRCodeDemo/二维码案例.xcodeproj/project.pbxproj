@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A305584C1DE6BA240082F299 /* XJDomainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A305584A1DE6BA240082F299 /* XJDomainViewController.swift */; };
+		A30558511DE6DEF00082F299 /* a4.gif in Resources */ = {isa = PBXBuildFile; fileRef = A30558501DE6DEF00082F299 /* a4.gif */; };
 		A349C3221DD8C30F00BAB6C1 /* QRCodeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349C3211DD8C30F00BAB6C1 /* QRCodeTool.swift */; };
 		A3E837F11DD62F01004889C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E837EF1DD62F01004889C7 /* Main.storyboard */; };
 		A3E837F31DD62F01004889C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E837F21DD62F01004889C7 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		A305584A1DE6BA240082F299 /* XJDomainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XJDomainViewController.swift; sourceTree = "<group>"; };
+		A30558501DE6DEF00082F299 /* a4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = a4.gif; sourceTree = "<group>"; };
 		A349C3211DD8C30F00BAB6C1 /* QRCodeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeTool.swift; sourceTree = "<group>"; };
 		A3E837E81DD62F01004889C7 /* 二维码案例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "二维码案例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E837F01DD62F01004889C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		A3E838071DD631BF004889C7 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				A30558501DE6DEF00082F299 /* a4.gif */,
 				A3E838081DD631BF004889C7 /* AppDelegate.swift */,
 				A3E838091DD631BF004889C7 /* Info.plist */,
 				A349C3211DD8C30F00BAB6C1 /* QRCodeTool.swift */,
@@ -265,6 +268,7 @@
 				A3E8381C1DD6348F004889C7 /* ScanQRCodeViewController.storyboard in Resources */,
 				A3E8381A1DD63475004889C7 /* DetecorQRCodeViewController.storyboard in Resources */,
 				A3E837F31DD62F01004889C7 /* Assets.xcassets in Resources */,
+				A30558511DE6DEF00082F299 /* a4.gif in Resources */,
 				A3E837F11DD62F01004889C7 /* Main.storyboard in Resources */,
 				A3E838181DD63413004889C7 /* GeneratorQRCodeViewController.storyboard in Resources */,
 			);
