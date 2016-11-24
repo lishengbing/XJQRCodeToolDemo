@@ -7,14 +7,14 @@
 //
 
 import UIKit
-private let timeValue : Int = 18
+private let timeValue : Int = 10
 
 class XJDomainViewController: UIViewController {
 
     @IBOutlet weak var bgVIew: UIView!
-    fileprivate var webView : UIWebView = UIWebView()
-    var cycyleTimer : Timer?
     @IBOutlet weak var rightItem: UIBarButtonItem!
+    fileprivate lazy var webView : UIWebView = UIWebView()
+    fileprivate var cycyleTimer : Timer?
     static var timeinterval : Int = 0
     static var isClick : Bool = true
     
@@ -49,19 +49,14 @@ extension XJDomainViewController {
     }
 
     @IBAction func starClick() {
-        let starView = UIView()
-        starView.frame = view.bounds
-        starView.backgroundColor = UIColor.white.withAlphaComponent(0.1)
-        view.addSubview(starView)
-        let tap = UITapGestureRecognizer(target: self, action: #selector(tapGes(tapG:)))
-        starView.addGestureRecognizer(tap)
-        self.bgVIew = starView
+        webView.isHidden = false
+        bgVIew.isHidden = false
         loadWebView()
     }
     
     fileprivate func removeView() {
-        self.webView.removeFromSuperview()
-        self.bgVIew.removeFromSuperview()
+        webView.isHidden = true
+        bgVIew.isHidden = true
     }
 }
 
@@ -72,15 +67,14 @@ extension XJDomainViewController  {
     }
     
     fileprivate func loadWebView() {
-        let webView = UIWebView()
-        self.webView = webView
         webView.frame = CGRect(x: 0, y: 64, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 64)
         webView.delegate = self
         view.addSubview(webView)
         let url : URL = URL(string: "https://github.com/lishengbing/XJQRCodeToolDemo")!
         let request = URLRequest(url: url)
         webView.loadRequest(request)
-         XJDomainViewController.isClick = false
+        
+        XJDomainViewController.isClick = false
     }
 }
 
@@ -94,6 +88,7 @@ extension XJDomainViewController : UIWebViewDelegate {
     
     func webViewDidFinishLoad(_ webView: UIWebView) {
         navigationItem.title = "请star一下"
+        
     }
 }
 
@@ -108,6 +103,7 @@ extension XJDomainViewController {
         cycyleTimer?.invalidate()
         cycyleTimer = nil
         rightItem.title = "技术计时入口"
+        navigationItem.title = "点下面star可重来"
     }
     @objc fileprivate func scrollToNext() {
          XJDomainViewController.isClick = false
@@ -118,7 +114,6 @@ extension XJDomainViewController {
             removeCycleTimer()
             removeView()
             XJDomainViewController.timeinterval = 0
-            navigationItem.title = "点下面star可重来"
             XJDomainViewController.isClick = true
         }
     }
