@@ -7,7 +7,7 @@
 //
 
 import UIKit
-private let timeValue : Int = 10
+private let timeValue : Int = 18
 
 class XJDomainViewController: UIViewController {
 
@@ -88,8 +88,9 @@ extension XJDomainViewController : UIWebViewDelegate {
     
     func webViewDidFinishLoad(_ webView: UIWebView) {
         navigationItem.title = "请star一下"
-        
     }
+    
+    
 }
 
 
