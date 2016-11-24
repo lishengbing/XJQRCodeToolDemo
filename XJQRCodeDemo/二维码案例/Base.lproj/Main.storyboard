@@ -59,6 +59,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="谢谢大家star一下，会有更多技术分享"/>
+                                <connections>
+                                    <action selector="starClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="jPV-JV-vmT"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r9S-OR-uLW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -82,11 +85,18 @@
                             <constraint firstItem="dbe-G6-RpH" firstAttribute="bottom" secondItem="Abf-jd-miR" secondAttribute="bottom" id="yui-um-psc"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="请star一下" id="JHm-MT-lxO"/>
+                    <navigationItem key="navigationItem" title="请star一下" id="JHm-MT-lxO">
+                        <barButtonItem key="rightBarButtonItem" title="技术计时入口" id="1Gn-lG-3cs">
+                            <connections>
+                                <action selector="rightClick:" destination="BYZ-38-t0r" id="9WA-s4-PTW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
                     <connections>
                         <outlet property="bgVIew" destination="r9S-OR-uLW" id="aj4-GX-rki"/>
+                        <outlet property="rightItem" destination="1Gn-lG-3cs" id="65H-Nj-3iH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
