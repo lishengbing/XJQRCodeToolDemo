@@ -17,7 +17,9 @@ XJQRCodeTool工具类
 >>https://my.oschina.net/shengbingli/blog/787809
 
 
->>![XJDmain](https://github.com/lishengbing/XJQRCodeToolDemo/blob/master/XJQRCodeDemo/%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%A1%88%E4%BE%8B/Classes/Other/a4.gif)>>![XJDmain](https://github.com/lishengbing/XJQRCodeToolDemo/blob/master/XJQRCodeDemo/%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%A1%88%E4%BE%8B/Assets.xcassets/scanUI.imageset/scanUI%402x.png)   
+>>![XJDmain](https://github.com/lishengbing/XJQRCodeToolDemo/blob/master/XJQRCodeDemo/%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%A1%88%E4%BE%8B/Classes/Other/a4.gif)
+
+>>![XJDmain](https://github.com/lishengbing/XJQRCodeToolDemo/blob/master/XJQRCodeDemo/%E4%BA%8C%E7%BB%B4%E7%A0%81%E6%A1%88%E4%BE%8B/Assets.xcassets/scanUI.imageset/scanUI%402x.png)   
 
 
 
